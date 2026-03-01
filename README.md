@@ -1,13 +1,10 @@
 # G-Tally
-A Chrome extension that overlays a live time-tracking widget on Google Calendar.
-
-# G-Tally
 
 **A Chrome extension that tracks total time spent on Google Calendar event blocks — live, in the browser, with no login required.**
 
 G-Tally injects a floating widget directly onto Google Calendar. It reads your event blocks, groups them by name, and shows you how many hours you've allocated to each activity across the week — in real time.
 
-![G-Tally widget preview](docs/preview.png)
+![G-Tally Demo](./assets/g-tally-timetracker-demo.gif)
 
 ---
 
