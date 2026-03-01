@@ -95,7 +95,6 @@ G-Tally parses the first line of each chip, extracts the time range and title, c
 - **Observer pause** — The `MutationObserver` is disconnected during the scroll/scrape cycle to prevent it from triggering an infinite refresh loop, then reconnected afterward.
 - **URL-based auto-refresh** — Rather than watching all DOM mutations (which would be noisy), the observer only fires when Google Calendar's URL changes — i.e. when the user navigates to a different week.
 
----
 
 ## File structure
 
@@ -111,7 +110,6 @@ g-tally/
     └── icon128.png
 ```
 
----
 
 ## Known limitations
 
@@ -120,7 +118,6 @@ g-tally/
 - **English locale** — Time parsing is tested against English-format time strings (`9am`, `10:30pm`). Other locales may produce incorrect results.
 - **Chromium only** — Built and tested in Chrome. Not supported on Firefox or Safari.
 
----
 
 ## Troubleshooting
 
@@ -136,7 +133,6 @@ Switch to Week or Day view. G-Tally works best when event blocks are visible wit
 **Two events with the same name are grouped together**  
 This is by design. G-Tally groups by exact event title. Rename events to distinguish them (e.g. `Work — Client A` vs `Work — Client B`).
 
----
 
 ## Privacy
 
@@ -144,7 +140,6 @@ G-Tally runs entirely in your browser. It does not collect, transmit, store, or 
 
 See the full [Privacy Policy](./Privacy.md).
 
----
 
 ## Roadmap
 
@@ -154,7 +149,6 @@ See the full [Privacy Policy](./Privacy.md).
 - [ ] Firefox / Edge compatibility
 - [ ] Multi-language time format support
 
----
 
 ## About
 
@@ -165,7 +159,6 @@ This project was created as a technical writing portfolio piece demonstrating en
 - Portfolio: [rwhyte.com](https://rwhyte.com)
 - LinkedIn: [linkedin.com/in/robwhyte](https://linkedin.com/in/robwhyte)
 
----
 
 ## License
 
