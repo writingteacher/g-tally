@@ -1,8 +1,8 @@
 # G-Tally
 
-**A Chrome extension that tracks total time spent on Google Calendar event blocks — live, in the browser, with no login required.**
+**A Chrome extension that tracks total time spent on Google Calendar event blocks. Live, in the browser, with no login required.**
 
-G-Tally injects a floating widget directly onto Google Calendar. It reads your event blocks, groups them by name, and shows you how many hours you've allocated to each activity across the week — in real time.
+G-Tally injects a floating widget directly onto Google Calendar. It reads your event blocks, groups them by name, and shows you how many hours you've allocated to each activity across the week. In real time.
 
 ![G-Tally Demo](./Assets/g-tally-timetracker-demo.gif)
 
@@ -19,7 +19,7 @@ G-Tally injects a floating widget directly onto Google Calendar. It reads your e
 
 ## Installation
 
-G-Tally is not yet on the Chrome Web Store. Install it in developer mode — this is safe and takes about 90 seconds.
+G-Tally is not yet on the Chrome Web Store. Install it in developer mode. This is safe and takes about 90 seconds.
 
 ### Requirements
 
@@ -30,26 +30,26 @@ G-Tally is not yet on the Chrome Web Store. Install it in developer mode — thi
 
 **1. Download the extension**
 
-Go to the [Releases page](../../releases) and download the latest `g-tally.zip`. Unzip it to a permanent location on your computer — for example `Documents/extensions/g-tally`. Don't delete this folder after installing.
+Go to the [Releases page](../../releases) and download the latest `G-Tally.zip`. Unzip it to a permanent location on your computer — for example `Documents/extensions/g-tally`. Don't delete this folder after installing.
 
 **2. Open Chrome Extensions**
 
-In Chrome, navigate to:
+In Chrome, open a new browser tab and paste in:
 ```
 chrome://extensions
 ```
 
 **3. Enable Developer Mode**
 
-Toggle the **Developer mode** switch in the top-right corner of the Extensions page.
+Go to the top right corner of the Extensions page and switch on the **Developer mode** toggle.
 
 **4. Load the extension**
 
-Click **Load unpacked**, then select the `g-tally` folder you unzipped in Step 1.
+Click the the **Load unpacked** button, then select the `G-Tally` folder you unzipped in Step 1.
 
 **5. Open Google Calendar**
 
-Go to [calendar.google.com](https://calendar.google.com). If it was already open, refresh the tab. Switch to **Week view** for best results.
+Go to [calendar.google.com](https://calendar.google.com). If it's already open, refresh the tab. Switch to **Week view** for best results.
 
 The G-Tally widget appears in the bottom-right corner within 2–3 seconds.
 
@@ -70,13 +70,13 @@ The G-Tally widget appears in the bottom-right corner within 2–3 seconds.
 
 | View | Result |
 |---|---|
-| Week view | ✅ Best — shows all 7 days, auto-scroll loads hidden events |
-| Day view | ✅ Great — full detail for a single day |
-| Month view | ⚠️ Limited — GCal truncates events, time ranges may not parse |
-| Schedule view | ⚠️ Limited — different DOM structure, some events may be missed |
+| Week view | Best — shows all 7 days, auto-scroll loads hidden events |
+| Day view | Great — full detail for a single day |
+| Month view | Limited — GCal truncates events, time ranges may not parse |
+| Schedule view | Limited — different DOM structure, some events may be missed |
 
 
-## How It Works
+## How it works
 
 G-Tally reads event data directly from the Google Calendar DOM — no API calls, no authentication.
 
@@ -97,7 +97,7 @@ G-Tally parses the first line of each chip, extracts the time range and title, c
 
 ---
 
-## File Structure
+## File structure
 
 ```
 g-tally/
@@ -113,7 +113,7 @@ g-tally/
 
 ---
 
-## Known Limitations
+## Known limitations
 
 - **Google Calendar DOM changes** — G-Tally targets CSS class names (`.GTG3wb`, `.vEJ0bc`) that Google controls and may rename without notice. If the widget stops finding events, check for an updated release.
 - **Week and Day view only** — Month and Schedule views use different rendering and may produce incomplete results.
@@ -142,7 +142,7 @@ This is by design. G-Tally groups by exact event title. Rename events to disting
 
 G-Tally runs entirely in your browser. It does not collect, transmit, store, or share any data. No analytics. No tracking. No network requests.
 
-See the full [Privacy Policy](PRIVACY.md).
+See the full [Privacy Policy](Privacy Policy.md).
 
 ---
 
@@ -158,11 +158,11 @@ See the full [Privacy Policy](PRIVACY.md).
 
 ## About
 
-Built by **Rob Whyte**, technical writer based in Busan, South Korea.
+Built by **Rob Whyte**, technical writer based in South Korea.
 
 This project was created as a technical writing portfolio piece demonstrating end-to-end documentation: building the software, identifying edge cases through real-world testing, and writing clear documentation for both end users and technical audiences.
 
-- Portfolio: [robwhyte.com](https://robwhyte.com)
+- Portfolio: [robwhyte.com](https://rwhyte.com)
 - LinkedIn: [linkedin.com/in/robwhyte](https://linkedin.com/in/robwhyte)
 
 ---
