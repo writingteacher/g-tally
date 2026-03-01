@@ -6,7 +6,6 @@ G-Tally injects a floating widget directly onto Google Calendar. It reads your e
 
 ![G-Tally Demo](./assets/g-tally-timetracker-demo.gif)
 
----
 
 ## Features
 
@@ -17,7 +16,6 @@ G-Tally injects a floating widget directly onto Google Calendar. It reads your e
 - **No account required** — reads only what's visible in your browser
 - **No data collection** — nothing is stored, logged, or transmitted
 
----
 
 ## Installation
 
@@ -58,7 +56,6 @@ The G-Tally widget appears in the bottom-right corner within 2–3 seconds.
 > **Tip:** Set Google Calendar to start the week on Monday for a clean Mon–Sun summary.  
 > Go to Settings → General → Start week on → Monday.
 
----
 
 ## Usage
 
@@ -78,7 +75,6 @@ The G-Tally widget appears in the bottom-right corner within 2–3 seconds.
 | Month view | ⚠️ Limited — GCal truncates events, time ranges may not parse |
 | Schedule view | ⚠️ Limited — different DOM structure, some events may be missed |
 
----
 
 ## How It Works
 
