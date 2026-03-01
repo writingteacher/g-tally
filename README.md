@@ -4,7 +4,7 @@
 
 G-Tally injects a floating widget directly onto Google Calendar. It reads your event blocks, groups them by name, and shows you how many hours you've allocated to each activity across the week — in real time.
 
-![G-Tally Demo](./assets/g-tally-timetracker-demo.gif)
+![G-Tally Demo](./Assets/g-tally-timetracker-demo.gif)
 
 
 ## Features
