@@ -142,7 +142,7 @@ This is by design. G-Tally groups by exact event title. Rename events to disting
 
 G-Tally runs entirely in your browser. It does not collect, transmit, store, or share any data. No analytics. No tracking. No network requests.
 
-See the full [Privacy Policy](Privacy Policy.md).
+See the full [Privacy Policy](./Privacy.md).
 
 ---
 
@@ -162,7 +162,7 @@ Built by **Rob Whyte**, technical writer based in South Korea.
 
 This project was created as a technical writing portfolio piece demonstrating end-to-end documentation: building the software, identifying edge cases through real-world testing, and writing clear documentation for both end users and technical audiences.
 
-- Portfolio: [robwhyte.com](https://rwhyte.com)
+- Portfolio: [rwhyte.com](https://rwhyte.com)
 - LinkedIn: [linkedin.com/in/robwhyte](https://linkedin.com/in/robwhyte)
 
 ---
